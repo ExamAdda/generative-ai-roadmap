@@ -9,9 +9,16 @@
 [![Projects](https://img.shields.io/badge/Projects-10%2B-059669)](#portfolio-projects)
 
 
-## Quick Navigation
+## Quick Roadmap
 
-[Roadmap](#complete-learning-path) • [Portfolio Projects](#portfolio-projects) • [Suggested Study Plan](#suggested-study-plan) • [Interview Preparation](#interview-preparation) • [Contributing Guide](CONTRIBUTING.md)
+**Foundations:** [Basic GenAI](#basic-genai) • [LLMs](#llm) • [Transformer Models](#transformer-models) • [Prompt Engineering](#prompt-engineering)
+
+**Build AI Systems:** [Embeddings](#embeddings) • [Vector Databases](#vector-databases) • [RAG](#rag) • [AI Agents](#ai-agents) • [Agent Frameworks](#agent-frameworks)
+
+**Advanced Skills:** [Fine-Tuning](#fine-tuning) • [Multimodal AI](#multimodal-ai) • [Portfolio Projects](#portfolio-projects)
+
+**Career Path:** [20-Week Learning Plan](#20-week-balanced-learning-plan) • [Interview Preparation](INTERVIEWS.md) • [Contributing Guide](CONTRIBUTING.md)
+
 ## Why Learn Generative AI?
 
 Generative AI is changing how software, automation, and digital products are built. Learning it helps you create intelligent applications, solve real-world problems, and prepare for growing AI engineering opportunities.
