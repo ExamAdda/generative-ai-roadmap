@@ -3,6 +3,7 @@
 > A complete, project-based learning path covering Generative AI, Large Language Models (LLMs), prompt engineering, RAG, AI agents, fine-tuning, multimodal AI, evaluation, safety, and production deployment
 
 [![Made by ExamAdda](https://img.shields.io/badge/Made%20by-ExamAdda-6D28D9)](https://examadda.org/)
+[![Interview](https://img.shields.io/badge/Interview-Prepare-orange)](./INTERVIEWS.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22C55E.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Level](https://img.shields.io/badge/Level-Beginner%20to%20Advanced-7C3AED)](https://tech.examadda.org/genai/roadmap)
