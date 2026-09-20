@@ -1,36 +1,36 @@
-# Generative AI Roadmap: Beginner to Production
+# Generative AI Roadmap: From Beginner to Production-Ready AI Engineer
 
-> A practical, project-based path to master Generative AI, Large Language Models (LLMs), RAG, AI agents, fine-tuning, multimodal AI, evaluation, safety, and production deployment.
+> A complete, project-based learning path covering Generative AI, Large Language Models (LLMs), prompt engineering, RAG, AI agents, fine-tuning, multimodal AI, evaluation, safety, and production deployment
 
-
-[![Made by ExamAdda](https://img.shields.io/badge/Made%20by-ExamAdda-6d28d9)](https://examadda.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
+[![Made by ExamAdda](https://img.shields.io/badge/Made%20by-ExamAdda-6D28D9)](https://examadda.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-22C55E.svg)](LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Level](https://img.shields.io/badge/Level-Beginner%20to%20Advanced-7C3AED)](https://tech.examadda.org/genai/roadmap)
-[![Learning](https://img.shields.io/badge/Learning-Articles%20%7C%20Videos%20%7C%20Practice-2563EB)](https://tech.examadda.org/genai)
 [![Projects](https://img.shields.io/badge/Projects-10%2B-059669)](#portfolio-projects)
-[![Interview](https://img.shields.io/badge/Interview-Preparation-F59E0B)](INTERVIEWS.md)
 
-## Quick Links
 
-- [Complete Learning Path](#complete-learning-path)
-- [Portfolio Projects](#portfolio-projects)
-- [Suggested Study Plan](#suggested-study-plan)
-- [Interview Preparation](INTERVIEWS.md)
-- [Contributing Guide](CONTRIBUTING.md)
-- [License](LICENSE)
+## Quick Navigation
 
-## What You Will Learn
+[Roadmap](#complete-learning-path) • [Portfolio Projects](#portfolio-projects) • [Suggested Study Plan](#suggested-study-plan) • [Interview Preparation](#interview-preparation) • [Contributing Guide](CONTRIBUTING.md)
+## Why Learn Generative AI?
 
-- Understand AI, ML, deep learning, transformers, and LLM fundamentals.
-- Build reliable prompts, structured outputs, and tool-calling workflows.
-- Create semantic search and production-ready RAG applications.
-- Design single-agent and multi-agent systems with memory and guardrails.
-- Fine-tune, evaluate, secure, deploy, monitor, and optimize GenAI systems.
-- Build a portfolio of real-world projects and prepare for GenAI interviews.
+Generative AI is changing how software, automation, and digital products are built. Learning it helps you create intelligent applications, solve real-world problems, and prepare for growing AI engineering opportunities.
 
-Use this page as the main roadmap, then jump to the linked interview guide, contribution guide, and ExamAdda tutorials when you need deeper practice.
+## Build Job-Ready Generative AI Skills
+
+Go beyond theory and learn how to:
+
+- Work with LLMs and prompt engineering
+- Build RAG applications and AI agents
+- Fine-tune and optimize language models
+- Create multimodal AI applications
+- Evaluate, secure, and monitor AI systems
+- Deploy scalable, production-ready solutions
+- Build portfolio projects and prepare for interviews
+
+> **Learn the concepts. Build real projects. Become production-ready.**
+
+Follow the roadmap in order, starting with AI and LLM fundamentals before moving into RAG, agents, fine-tuning, evaluation, security, and deployment.
 
 ## Complete Learning Path
 
@@ -59,9 +59,6 @@ flowchart TD
     class H,I,J advanced;
     class K career;
 ```
-
-> Follow the phases in order. Complete at least one practice task and one project checkpoint before advancing.
-
 
 
 ### Basic GenAI
@@ -369,86 +366,51 @@ flowchart TD
 
 ## Portfolio Projects
 
-| Level | Project | Core skills | Deliverables |
+Build practical projects that demonstrate real-world Generative AI skills.
+
+| Level | Project | Core Skills | Deliverables |
 |:---:|---|---|---|
-| 🟢 Beginner | AI text summarizer | Prompting, APIs, structured output | App, README, test cases |
-| 🟢 Beginner | Resume feedback assistant | Prompt design, schemas, guardrails | Web UI, scoring rubric |
-| 🟡 Intermediate | Semantic search engine | Embeddings, vector database, filters | Search API, evaluation set |
-| 🟡 Intermediate | Chat with PDFs | Chunking, RAG, citations, history | Full-stack RAG application |
-| 🟡 Intermediate | SQL analytics assistant | Tool calling, validation, permissions | Read-only database agent |
-| 🟠 Advanced | Customer-support copilot | Hybrid retrieval, reranking, escalation | Production-style service |
-| 🟠 Advanced | Multi-agent research system | Planning, tools, delegation, state | Traced agent workflow |
-| 🔴 Expert | Domain-tuned LLM | Dataset design, LoRA/QLoRA, evaluation | Adapter, model card, benchmark |
-| 🔴 Expert | Multimodal document analyst | OCR, vision-language model, RAG | Document processing platform |
-| 🔴 Expert | Production GenAI platform | Gateway, evaluation, safety, LLMOps | Deployed, monitored capstone |
+| 🟢 Beginner | AI Text Summarizer | Prompting, APIs, structured outputs | App, README, tests |
+| 🟢 Beginner | Resume Feedback Assistant | Schemas, prompting, guardrails | Web UI, scoring rubric |
+| 🟡 Intermediate | Semantic Search Engine | Embeddings, vector databases | Search API, evaluation set |
+| 🟡 Intermediate | Chat with PDFs | Chunking, RAG, citations | Full-stack RAG app |
+| 🟡 Intermediate | SQL Analytics Assistant | Tool calling, validation | Read-only database agent |
+| 🟠 Advanced | Customer Support Copilot | Retrieval, reranking, escalation | Production-style service |
+| 🟠 Advanced | Multi-Agent Research System | Planning, tools, state | Traced agent workflow |
+| 🔴 Expert | Domain-Tuned LLM | Dataset design, LoRA, evaluation | Adapter, model card |
+| 🔴 Expert | Multimodal Document Analyst | OCR, vision models, RAG | Document platform |
+| 🔴 Expert | Production GenAI Platform | Safety, evaluation, LLMOps | Deployed capstone |
 
 ## Interview Preparation
 
-For a focused interview path, use the companion [GenAI interview preparation guide](INTERVIEWS.md).
+Prepare for Generative AI interviews with level-based questions and practical scenarios.
 
-| Level | Resource | Recommended stage |
+| Level | Resource |
+|:---:|---|
+| 🟢 Beginner | [Beginner GenAI Interview Questions](https://tech.examadda.org/genai/beginner-interview-questions) |
+| 🟡 Intermediate | [Intermediate GenAI Interview Questions](https://tech.examadda.org/genai/intermediate-interview-questions) |
+| 🔴 Advanced | [Advanced GenAI Interview Questions](https://tech.examadda.org/genai/advanced-interview-questions) |
+| 🟣 Scenario-Based | [Scenario-Based GenAI Interview Questions](https://tech.examadda.org/genai/scenario-based-interview-questions) |
+
+For structured preparation, follow the complete [GenAI Interview Preparation Guide](INTERVIEWS.md).
+
+Focus on model selection, prompting vs. RAG vs. fine-tuning, chunking, retrieval quality, hallucination control, evaluation, latency, security, and cost.
+
+## 20-Week Balanced Learning Plan
+
+| Weeks | Learning Focus | Milestone |
 |:---:|---|---|
-| 🟢 Beginner | [Beginner GenAI Interview Questions](https://tech.examadda.org/genai/beginner-interview-questions) | After Phase 3 |
-| 🟡 Intermediate | [Intermediate GenAI Interview Questions](https://tech.examadda.org/genai/intermediate-interview-questions) | After Phase 6 |
-| 🔴 Advanced | [Advanced GenAI Interview Questions](https://tech.examadda.org/genai/advanced-interview-questions) | After Phase 10 |
-| 🟣 Scenario-based | [Scenario-Based GenAI Interview Questions](https://tech.examadda.org/genai/scenario-based-interview-questions) | During capstone preparation |
-
-Focus on explaining trade-offs: model selection, prompting vs RAG vs fine-tuning, chunking strategy, retrieval quality, hallucination control, evaluation, latency, security, and cost.
-
-## Suggested Study Plan
-
-| Track | Duration | Weekly commitment | Best for |
-|---|:---:|:---:|---|
-| Fast track | 12 weeks | 15–20 hours | Developers building GenAI apps quickly |
-| Balanced | 20 weeks | 8–12 hours | Working professionals |
-| In-depth | 32 weeks | 5–8 hours | Learners including ML theory and fine-tuning |
-
-### 20-Week Balanced Plan
-
-| Weeks | Focus | Milestone |
-|:---:|---|---|
-| 1–2 | Foundations, ML and deep learning | Neural-network mini project |
-| 3–5 | Transformers, LLMs and prompting | Structured-output application |
+| 1–2 | AI, ML, and deep-learning foundations | Neural-network mini project |
+| 3–5 | Transformers, LLMs, and prompt engineering | Structured-output application |
 | 6–7 | Embeddings and vector databases | Semantic search engine |
-| 8–10 | RAG and evaluation | RAG app with citations |
-| 11–13 | Agents and frameworks | Tool-using agent |
+| 8–10 | RAG and evaluation | RAG application with citations |
+| 11–13 | AI agents, tools, and frameworks | Tool-using AI agent |
 | 14–15 | Fine-tuning and alignment | LoRA experiment |
 | 16–17 | Multimodal AI | Multimodal mini project |
-| 18–19 | Safety, evaluation and LLMOps | Production readiness report |
-| 20 | Capstone and interview revision | Demo, README and case study |
+| 18–19 | Safety, evaluation, deployment, and LLMOps | Production-readiness report |
+| 20 | Capstone and interview revision | Live demo, README, and case study |
 
-## ✅ Completion Checklist
-
-- [ ] Finish every core article and video lesson.
-- [ ] Score at least 80% in phase quizzes.
-- [ ] Complete practice exercises without copying the solution.
-- [ ] Build at least three mini projects and one production-style capstone.
-- [ ] Add evaluation datasets, automated tests, security controls, and cost metrics.
-- [ ] Publish clear READMEs with architecture, setup, trade-offs, results, and demos.
-- [ ] Revise beginner, intermediate, advanced, and scenario-based interview questions.
-
-## Resource Link Convention
-
-Replace these placeholders as content becomes available:
-
-- `ARTICLE_URL` — detailed ExamAdda tutorial.
-- `VIDEO_URL` — complete video lesson or solution.
-- `PRACTICE_URL` — hands-on lab or coding exercise.
-- `QUIZ_URL` — topic assessment.
-- `REVISION_URL` — notes, flashcards, or cheat sheet.
-- `PROJECT_URL` — guided project, starter repository, or solution.
-
----
-
-## Learn with ExamAdda
-
-- [Explore Generative AI Tutorials](https://tech.examadda.org/genai)
-- [Open the Interactive GenAI Roadmap](https://tech.examadda.org/genai/roadmap)
-- [View ExamAdda on GitHub](https://github.com/ExamAdda)
-- [Explore ExamAdda Premium](https://examadda.org/premium)
-
-> Learn the concept, watch the implementation, practise it yourself, build a project, evaluate the result, and then explain the trade-offs.
-
+> Complete each milestone as a documented GitHub project to build an interview-ready portfolio.
 
 ## Contributing
 
