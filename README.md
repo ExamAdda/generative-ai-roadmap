@@ -1,4 +1,4 @@
-# 🤖 Generative AI Roadmap: Beginner to Production
+# Generative AI Roadmap: Beginner to Production
 
 > A practical, project-based path to master Generative AI, Large Language Models (LLMs), RAG, AI agents, fine-tuning, multimodal AI, evaluation, safety, and production deployment.
 
@@ -9,10 +9,19 @@
 
 [![Level](https://img.shields.io/badge/Level-Beginner%20to%20Advanced-7C3AED)](https://tech.examadda.org/genai/roadmap)
 [![Learning](https://img.shields.io/badge/Learning-Articles%20%7C%20Videos%20%7C%20Practice-2563EB)](https://tech.examadda.org/genai)
-[![Projects](https://img.shields.io/badge/Projects-10%2B-059669)](#-portfolio-projects)
-[![Interview](https://img.shields.io/badge/Interview-Preparation-F59E0B)](#-interview-preparation)
+[![Projects](https://img.shields.io/badge/Projects-10%2B-059669)](#portfolio-projects)
+[![Interview](https://img.shields.io/badge/Interview-Preparation-F59E0B)](INTERVIEWS.md)
 
-## 🎯 What You Will Learn
+## Quick Links
+
+- [Complete Learning Path](#complete-learning-path)
+- [Portfolio Projects](#portfolio-projects)
+- [Suggested Study Plan](#suggested-study-plan)
+- [Interview Preparation](INTERVIEWS.md)
+- [Contributing Guide](CONTRIBUTING.md)
+- [License](LICENSE)
+
+## What You Will Learn
 
 - Understand AI, ML, deep learning, transformers, and LLM fundamentals.
 - Build reliable prompts, structured outputs, and tool-calling workflows.
@@ -21,17 +30,9 @@
 - Fine-tune, evaluate, secure, deploy, monitor, and optimize GenAI systems.
 - Build a portfolio of real-world projects and prepare for GenAI interviews.
 
-## ✅ Prerequisites
+Use this page as the main roadmap, then jump to the linked interview guide, contribution guide, and ExamAdda tutorials when you need deeper practice.
 
-| Skill | Recommended knowledge | Resource |
-|---|---|:---:|
-| Python | Variables, functions, classes, packages, virtual environments | [Article](https://tech.examadda.org/python) |
-| Mathematics | Vectors, matrices, probability, derivatives, cosine similarity | [Article](https://tech.examadda.org/machine-learning) |
-| APIs | HTTP, REST, JSON, authentication, error handling | [Article](https://tech.examadda.org/backend-development) |
-| Git | Clone, branch, commit, pull request | [Practice](https://github.com/ExamAdda) |
-| Optional | Basic ML and cloud knowledge | [Roadmap](https://tech.examadda.org/machine-learning/roadmap) |
-
-## 🗺️ Complete Learning Path
+## Complete Learning Path
 
 ```mermaid
 flowchart TD
@@ -61,158 +62,312 @@ flowchart TD
 
 > Follow the phases in order. Complete at least one practice task and one project checkpoint before advancing.
 
-## Phase 1 — AI and Generative AI Foundations
 
-**Goal:** Understand what GenAI is, how it differs from traditional AI, and how modern applications use foundation models.
 
-| Topic | Article | Video lesson | Practice / Quiz | Project checkpoint |
-|---|:---:|:---:|:---:|:---:|
-| Introduction to Artificial Intelligence | [Read](https://tech.examadda.org/genai/introduction-to-artificial-intelligence) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) | — |
-| Introduction to Generative AI | [Read](https://tech.examadda.org/genai/introduction-to-generative-ai) | [Watch](VIDEO_URL) | [Practice](PRACTICE_URL) | [AI use-case explorer](PROJECT_URL) |
-| History and evolution of GenAI | [Read](https://tech.examadda.org/genai/history-of-generative-ai-1) | [Watch](VIDEO_URL) | [Revision](REVISION_URL) | — |
-| Discriminative vs generative models | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) | — |
-| Foundation models and model lifecycle | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Practice](PRACTICE_URL) | — |
-| Training vs inference | [Read](https://tech.examadda.org/genai/training-vs-inference-in-generative-ai) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) | — |
-| Parameters, model size, compute and GPUs | [Read](https://tech.examadda.org/genai/parameters-and-model-size) | [Watch](VIDEO_URL) | [Revision](REVISION_URL) | — |
+### Basic GenAI
 
-## Phase 2 — Machine Learning and Deep Learning
+- [Roadmap](https://tech.examadda.org/genai/roadmap)
+- [Beginner Interview Questions](https://tech.examadda.org/genai/beginner-interview-questions)
+- [Intermediate Interview Questions](https://tech.examadda.org/genai/intermediate-interview-questions)
+- [Advanced Interview Questions](https://tech.examadda.org/genai/advanced-interview-questions)
+- [Scenario-Based Interview Questions](https://tech.examadda.org/genai/scenario-based-interview-questions)
+- [Introduction of AI](https://tech.examadda.org/genai/introduction-to-artificial-intelligence)
+- [Introduction of GenAI](https://tech.examadda.org/genai/introduction-to-generative-ai)
+- [History of GenAI](https://tech.examadda.org/genai/history-of-generative-ai-1)
 
-**Goal:** Learn only the ML and deep-learning concepts needed to understand GenAI models.
+- ML in GenAI
 
-| Module | Topics | Article | Video | Practice / Project |
-|---|---|:---:|:---:|:---:|
-| ML foundations | Supervised, unsupervised and reinforcement learning | [Read](https://tech.examadda.org/genai/introduction-to-machine-learning-1) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) |
-| Generalization | Training, validation, overfitting, underfitting and regularization | [Read](https://tech.examadda.org/genai/overfitting-and-underfitting) | [Watch](VIDEO_URL) | [Experiment](PRACTICE_URL) |
-| Neural networks | Neurons, layers, weights, forward and backward propagation | [Read](https://tech.examadda.org/genai/neural-networks) | [Watch](VIDEO_URL) | [Build a neural network](PROJECT_URL) |
-| Training | Activation functions, loss functions, optimizers and gradient descent | [Read](https://tech.examadda.org/genai/loss-functions-in-deep-learning) | [Watch](VIDEO_URL) | [Practice](PRACTICE_URL) |
-| Sequence models | RNN, LSTM, attention motivation and limitations | [Read](https://tech.examadda.org/genai/cnn-rnn-and-lstm) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) |
-| Generative families | Autoencoders, VAEs, GANs and diffusion models | [Compare](https://tech.examadda.org/genai/generative-ai-model-comparison) | [Watch](VIDEO_URL) | [Image generator](PROJECT_URL) |
-| Ecosystem | PyTorch, Hugging Face, datasets and model hubs | [Read](https://tech.examadda.org/genai/hugging-face-for-generative-ai) | [Watch](VIDEO_URL) | [Notebook](PRACTICE_URL) |
+  - [Introduction of ML](https://tech.examadda.org/genai/introduction-to-machine-learning-1)
+  - [Supervised Learning](https://tech.examadda.org/genai/supervised-learning-1)
+  - [Unsupervised Learning](https://tech.examadda.org/genai/unsupervised-learning)
+  - [Reinforcement Learning](https://tech.examadda.org/genai/reinforcement-learning)
+  - [Overfitting & Underfitting](https://tech.examadda.org/genai/overfitting-and-underfitting)
+  - [Model Evaluation Basics](https://tech.examadda.org/genai/model-evaluation-basics)
+  
+- Deep Learning in GenAI
 
-## Phase 3 — Transformers and Large Language Models
+  - [Introduction to Deep Learning](https://tech.examadda.org/genai/introduction-to-deep-learning)
+  - [Neural Networks](https://tech.examadda.org/genai/neural-networks)
+  - [Activation Functions](https://tech.examadda.org/genai/activation-functions-in-neural-networks)
+  - [Loss Functions](https://tech.examadda.org/genai/loss-functions-in-deep-learning)
+  - [CNN, RNN & LSTM](https://tech.examadda.org/genai/cnn-rnn-and-lstm)
 
-**Goal:** Understand how transformers process language and how LLMs generate output.
+- Generative AI Models
 
-| Module | Topics | Article | Video | Practice / Project |
-|---|---|:---:|:---:|:---:|
-| Text representation | Tokens, tokenizers, vocabulary and embeddings | [Read](https://tech.examadda.org/genai/tokenizers) | [Watch](VIDEO_URL) | [Tokenizer visualizer](PROJECT_URL) |
-| Transformer input | Token embeddings and positional encoding | [Read](https://tech.examadda.org/genai/positional-encoding) | [Watch](VIDEO_URL) | [Practice](PRACTICE_URL) |
-| Attention | Self-attention, Q/K/V, scaled dot-product and multi-head attention | [Read](https://tech.examadda.org/genai/self-attention) | [Watch](VIDEO_URL) | [Attention calculator](PROJECT_URL) |
-| Architecture | Encoder, decoder, FFN, residual connections and normalization | [Read](https://tech.examadda.org/genai/transformer-architecture) | [Watch](VIDEO_URL) | [Label the architecture](QUIZ_URL) |
-| Model families | BERT, GPT and T5; encoder vs decoder vs encoder-decoder | [Read](https://tech.examadda.org/genai/bert-encoder) | [Watch](VIDEO_URL) | [Comparison](PRACTICE_URL) |
-| LLM training | Pretraining, next-token prediction, instruction tuning and alignment | [Read](https://tech.examadda.org/genai/next-token-prediction) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) |
-| Inference controls | Temperature, top-k, top-p, max tokens and stop sequences | [Read](https://tech.examadda.org/genai/temperature) | [Watch](VIDEO_URL) | [Generation playground](PROJECT_URL) |
-| Capabilities and limits | Context windows, scaling laws, hallucinations and reasoning limits | [Read](https://tech.examadda.org/genai/hallucinations-in-llms) | [Watch](VIDEO_URL) | [Failure analysis](PRACTICE_URL) |
-| Model selection | Proprietary vs open models, quality, latency, privacy and cost | [Read](https://tech.examadda.org/genai/open-source-llms) | [Watch](VIDEO_URL) | [Decision matrix](PROJECT_URL) |
+  - [Autoencoders](https://tech.examadda.org/genai/autoencoders)
+  - [Variational Autoencoders (VAE)](https://tech.examadda.org/genai/variational-autoencoders-vae)
+  - [GANs (Generative Adversarial Networks)](https://tech.examadda.org/genai/generative-adversarial-networks-gans)
+  - [Diffusion Models](https://tech.examadda.org/genai/diffusion-models)
+  - [Model Comparison](https://tech.examadda.org/genai/generative-ai-model-comparison)
 
-## Phase 4 — Prompt Engineering and Model APIs
+- Core GenAI
 
-**Goal:** Build dependable LLM interactions rather than isolated demo prompts.
+  - [Parameters & Model Size](https://tech.examadda.org/genai/parameters-and-model-size)
+  - [Training vs Inference](https://tech.examadda.org/genai/training-vs-inference-in-generative-ai)
+  - [Fine-Tuning Basics](https://tech.examadda.org/genai/fine-tuning-basics)
+  - [GPU & Compute Fundamentals](https://tech.examadda.org/genai/gpu-and-compute-fundamentals)
 
-| Module | Topics | Article | Video | Practice / Project |
-|---|---|:---:|:---:|:---:|
-| Prompt anatomy | System, developer, user and assistant messages; context and constraints | [Read](https://tech.examadda.org/genai/introduction-to-prompts) | [Watch](VIDEO_URL) | [Prompt lab](PRACTICE_URL) |
-| Prompting techniques | Zero-shot, one-shot, few-shot and role prompting | [Read](https://tech.examadda.org/genai/few-shot-prompting) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) |
-| Reasoning workflows | Decomposition, self-consistency, reflection and ReAct | [Read](https://tech.examadda.org/genai/react-prompting) | [Watch](VIDEO_URL) | [Reasoning benchmark](PROJECT_URL) |
-| Structured output | JSON schema, validation, retries and output parsing | [Read](https://tech.examadda.org/genai/json-output-prompting) | [Watch](VIDEO_URL) | [Data extractor](PROJECT_URL) |
-| Tools | Function calling, tool calling and API integration | [Read](https://tech.examadda.org/genai/function-calling) | [Watch](VIDEO_URL) | [Weather assistant](PROJECT_URL) |
-| Reliability | Prompt injection awareness, delimiters, grounding and guardrails | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Red-team prompts](PRACTICE_URL) |
-| API engineering | Streaming, retries, timeouts, rate limits, caching and cost tracking | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Production chat API](PROJECT_URL) |
+- GenAI Tools & Ecosystem
 
-## Phase 5 — Embeddings and Vector Databases
+  - [PyTorch](https://tech.examadda.org/genai/pytorch-for-generative-ai)
+  - [TensorFlow](https://tech.examadda.org/genai/tensorflow-for-generative-ai)
+  - [Hugging Face](https://tech.examadda.org/genai/hugging-face-for-generative-ai)
+  - [Model Hubs & Datasets](https://tech.examadda.org/genai/model-hubs-and-datasets)
 
-**Goal:** Build semantic search and prepare the retrieval layer used by RAG.
+---
 
-| Module | Topics | Article | Video | Practice / Project |
-|---|---|:---:|:---:|:---:|
-| Embeddings | Dense vectors, semantic meaning and embedding dimensions | [Read](https://tech.examadda.org/genai/introduction-to-embeddings) | [Watch](VIDEO_URL) | [Embedding explorer](PROJECT_URL) |
-| Similarity | Cosine similarity, dot product and Euclidean distance | [Read](https://tech.examadda.org/genai/cosine-similarity) | [Watch](VIDEO_URL) | [Calculate](PRACTICE_URL) |
-| Embedding models | OpenAI, Sentence Transformers, BGE and E5 | [Read](https://tech.examadda.org/genai/sentence-transformers) | [Watch](VIDEO_URL) | [Model comparison](PROJECT_URL) |
-| Vector indexing | KNN, ANN, HNSW, IVF and top-k retrieval | [Read](https://tech.examadda.org/genai/approximate-nearest-neighbor-ann-search) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) |
-| Vector stores | FAISS, Chroma, Pinecone, Weaviate and pgvector | [Read](https://tech.examadda.org/genai/introduction-to-vector-databases) | [Watch](VIDEO_URL) | [Semantic search](PROJECT_URL) |
-| Retrieval quality | Metadata filters, hybrid search, reranking and caching | [Read](https://tech.examadda.org/genai/hybrid-search) | [Watch](VIDEO_URL) | [Retrieval benchmark](PROJECT_URL) |
+### LLM
 
-## Phase 6 — Retrieval-Augmented Generation (RAG)
+- [Introduction of LLM](https://tech.examadda.org/genai/introduction-to-large-language-models)
+- [Model Parameters](https://tech.examadda.org/genai/model-parameters)
+- [Scaling Laws](https://tech.examadda.org/genai/scaling-laws)
+- [Context Window](https://tech.examadda.org/genai/context-window)
+- [Tokens](https://tech.examadda.org/genai/tokens)
+- [Tokenizers](https://tech.examadda.org/genai/tokenizers)
+- [Split into Tokens](https://tech.examadda.org/genai/split-into-tokens)
 
-**Goal:** Build a grounded question-answering system with measurable retrieval and answer quality.
+- Output Controls
 
-```mermaid
-flowchart LR
-    A["Documents"] --> B["Parse and Chunk"]
-    B --> C["Embed and Index"]
-    Q["User Query"] --> D["Retrieve and Rerank"]
-    C --> D
-    D --> E["LLM with Context"]
-    E --> F["Answer with Citations"]
-```
+  - [Temperature](https://tech.examadda.org/genai/temperature)
+  - [Top-P](https://tech.examadda.org/genai/top-p-sampling)
+  - [Top-K](https://tech.examadda.org/genai/top-k-sampling)
+  - [Max Tokens](https://tech.examadda.org/genai/max-tokens)
 
-| Module | Topics | Article | Video | Practice / Project |
-|---|---|:---:|:---:|:---:|
-| RAG fundamentals | Architecture, use cases, benefits and limitations | [Read](https://tech.examadda.org/genai/introduction-to-rag) | [Watch](VIDEO_URL) | [Architecture quiz](QUIZ_URL) |
-| Ingestion | Loaders, parsing, cleaning, chunking, overlap and metadata | [Read](https://tech.examadda.org/genai/document-chunking) | [Watch](VIDEO_URL) | [Ingestion pipeline](PROJECT_URL) |
-| Retrieval | Vector, keyword, hybrid, multi-query and parent-child retrieval | [Read](https://tech.examadda.org/genai/multi-query-retrieval) | [Watch](VIDEO_URL) | [Retriever comparison](PROJECT_URL) |
-| Advanced RAG | Query rewriting, reranking, contextual compression and Graph RAG | [Read](https://tech.examadda.org/genai/graph-rag) | [Watch](VIDEO_URL) | [Advanced RAG](PROJECT_URL) |
-| Generation | Context assembly, citations, abstention and conversation history | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [PDF Q&A assistant](PROJECT_URL) |
-| Evaluation | Recall@k, precision@k, MRR, faithfulness, relevance and groundedness | [Read](https://tech.examadda.org/genai/faithfulness-rag) | [Watch](VIDEO_URL) | [RAG evaluation suite](PROJECT_URL) |
-| Production | Access control, incremental indexing, observability, caching and cost | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Production RAG API](PROJECT_URL) |
+- LLM Behavior
 
-## Phase 7 — AI Agents and Agent Frameworks
+  - [Hallucinations](https://tech.examadda.org/genai/hallucinations-in-llms)
+  - [Emergent Abilities](https://tech.examadda.org/genai/emergent-abilities-in-llms)
+  - [Reasoning Limitations](https://tech.examadda.org/genai/reasoning-limitations-in-llms)
 
-**Goal:** Create agents that plan, use tools, preserve state, recover from failure, and request human approval when needed.
+- Popular Models
 
-| Module | Topics | Article | Video | Practice / Project |
-|---|---|:---:|:---:|:---:|
-| Agent fundamentals | Agent loop, reasoning, planning, actions and observations | [Read](https://tech.examadda.org/genai/introduction-to-ai-agents) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) |
-| Tools | Function calls, APIs, search, databases and code execution | [Read](https://tech.examadda.org/genai/tools-ai-agents) | [Watch](VIDEO_URL) | [Tool-using assistant](PROJECT_URL) |
-| Memory and state | Working, episodic and semantic memory; checkpoints | [Read](https://tech.examadda.org/genai/memory-ai-agents) | [Watch](VIDEO_URL) | [Memory assistant](PROJECT_URL) |
-| Agent patterns | ReAct, plan-and-execute, routing, reflection and evaluator-optimizer | [Read](https://tech.examadda.org/genai/react-agent-pattern) | [Watch](VIDEO_URL) | [Pattern comparison](PRACTICE_URL) |
-| Workflows | Deterministic flows, human-in-the-loop, retries and durable execution | [Read](https://tech.examadda.org/genai/langgraph-workflow-design) | [Watch](VIDEO_URL) | [Approval workflow](PROJECT_URL) |
-| Multi-agent systems | Roles, delegation, communication, orchestration and shared state | [Read](https://tech.examadda.org/genai/agent-orchestration-in-ai-agents) | [Watch](VIDEO_URL) | [Research team](PROJECT_URL) |
-| Frameworks | LangChain, LlamaIndex and LangGraph | [Read](https://tech.examadda.org/genai/introduction-to-langgraph) | [Watch](VIDEO_URL) | [Framework lab](PRACTICE_URL) |
-| Agent protocols | Model Context Protocol (MCP), resources, prompts and tools | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [MCP server](PROJECT_URL) |
-| Safety | Least privilege, sandboxing, approvals, audit logs and prompt injection | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Agent threat model](PROJECT_URL) |
+  - [GPT](https://tech.examadda.org/genai/gpt)
+  - [Claude](https://tech.examadda.org/genai/claude)
+  - [Llama](https://tech.examadda.org/genai/llama)
+  - [DeepSeek](https://tech.examadda.org/genai/deepseek)
+  - [Open-source Models](https://tech.examadda.org/genai/open-source-llms)
 
-## Phase 8 — Fine-Tuning and Model Alignment
+---
 
-**Goal:** Know when fine-tuning is justified and build a reproducible adaptation pipeline.
+### Transformer Models
 
-| Module | Topics | Article | Video | Practice / Project |
-|---|---|:---:|:---:|:---:|
-| Strategy | Prompting vs RAG vs fine-tuning | [Read](https://tech.examadda.org/genai/introduction-to-tuning) | [Watch](VIDEO_URL) | [Decision exercise](PRACTICE_URL) |
-| Data | Collection, cleaning, deduplication, formatting and train/validation/test splits | [Read](https://tech.examadda.org/genai/data-collection-for-fine-tuning) | [Watch](VIDEO_URL) | [Prepare a dataset](PROJECT_URL) |
-| Methods | Full fine-tuning, instruction tuning, LoRA, QLoRA and PEFT | [Read](https://tech.examadda.org/genai/lora-low-rank-adaptation) | [Watch](VIDEO_URL) | [LoRA notebook](PROJECT_URL) |
-| Alignment | SFT, preference data, RLHF and DPO concepts | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) |
-| Evaluation | Baselines, task metrics, human evaluation and regression testing | [Read](https://tech.examadda.org/genai/benchmarks-for-fine-tuning) | [Watch](VIDEO_URL) | [Model comparison](PROJECT_URL) |
-| Serving | Quantization, model formats, inference servers and adapters | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Serve a tuned model](PROJECT_URL) |
+- [Limitations of RNN/LSTM](https://tech.examadda.org/genai/limitations-of-rnn-and-lstm)
+- [Transformer Architecture](https://tech.examadda.org/genai/transformer-architecture)
+- [Attention Is All You Need](https://tech.examadda.org/genai/attention-is-all-you-need)
+- [Tokens & Embeddings](https://tech.examadda.org/genai/tokens-and-embeddings)
+- [Positional Encoding](https://tech.examadda.org/genai/positional-encoding)
+- [Encoder & Decoder](https://tech.examadda.org/genai/encoder-and-decoder)
 
-## Phase 9 — Multimodal and Generative Media
+- Transformer Block
 
-**Goal:** Build applications that understand or generate combinations of text, image, audio, and video.
+  - [Feed Forward Network (FFN)](https://tech.examadda.org/genai/feed-forward-network-ffn)
+  - [Residual Connections](https://tech.examadda.org/genai/residual-connections)
+  - [Layer Normalization](https://tech.examadda.org/genai/layer-normalization)
 
-| Module | Topics | Article | Video | Practice / Project |
-|---|---|:---:|:---:|:---:|
-| Multimodal foundations | Encoders, shared representation, cross-attention and fusion | [Read](https://tech.examadda.org/genai/introduction-to-multimodal-ai) | [Watch](VIDEO_URL) | [Quiz](QUIZ_URL) |
-| Vision-language models | Image understanding, OCR, visual Q&A and document AI | [Read](https://tech.examadda.org/genai/image-modality) | [Watch](VIDEO_URL) | [Invoice extractor](PROJECT_URL) |
-| Image generation | Diffusion, text-to-image, image editing and control techniques | [Read](https://tech.examadda.org/genai/diffusion-models) | [Watch](VIDEO_URL) | [Image studio](PROJECT_URL) |
-| Speech and audio | Speech-to-text, text-to-speech, audio understanding and voice safety | [Read](https://tech.examadda.org/genai/audio-modality) | [Watch](VIDEO_URL) | [Voice assistant](PROJECT_URL) |
-| Video | Video understanding and generation fundamentals | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Video summarizer](PROJECT_URL) |
-| Multimodal RAG | Retrieve text, tables and images from complex documents | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Document analyst](PROJECT_URL) |
+- Transformer Variants
 
-## Phase 10 — Evaluation, Safety, LLMOps and Deployment
+  - [BERT (Encoder)](https://tech.examadda.org/genai/bert-encoder)
+  - [GPT (Decoder)](https://tech.examadda.org/genai/gpt-decoder)
+  - [T5 (Encoder–Decoder)](https://tech.examadda.org/genai/t5-encoder-decoder)
 
-**Goal:** Move from a working prototype to a reliable, secure, observable, and cost-efficient system.
+- Attention Mechanism
 
-| Module | Topics | Article | Video | Practice / Project |
-|---|---|:---:|:---:|:---:|
-| Evaluation | Golden datasets, offline/online evaluation, LLM-as-judge and human review | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Evaluation harness](PROJECT_URL) |
-| Safety | Harmful content, bias, privacy, PII, moderation and responsible AI | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Safety checklist](PRACTICE_URL) |
-| Security | Prompt injection, data exfiltration, insecure tools and supply-chain risks | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Red-team lab](PROJECT_URL) |
-| Observability | Traces, prompts, token usage, latency, errors and quality monitoring | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Monitoring dashboard](PROJECT_URL) |
-| Performance | Streaming, batching, caching, routing, fallbacks and semantic cache | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Optimization lab](PROJECT_URL) |
-| Deployment | Docker, CI/CD, serverless, GPU serving, autoscaling and secrets | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Deploy an AI API](PROJECT_URL) |
-| Governance | Versioning, audit trails, access policies, licenses and data retention | [Read](ARTICLE_URL) | [Watch](VIDEO_URL) | [Governance plan](PROJECT_URL) |
+  - [Self-Attention](https://tech.examadda.org/genai/self-attention)
+  - [Query, Key, Value (QKV)](https://tech.examadda.org/genai/query-key-value)
+  - [Multi-Head Attention](https://tech.examadda.org/genai/multi-head-attention)
+  - [Cross-Attention](https://tech.examadda.org/genai/cross-attention)
 
-## 🚀 Portfolio Projects
+- [Next Token Prediction](https://tech.examadda.org/genai/next-token-prediction)
+
+---
+
+### Prompt Engineering
+
+- [Introduction of Prompt](https://tech.examadda.org/genai/introduction-to-prompts)
+- [System Prompt](https://tech.examadda.org/genai/system-prompt)
+- [User Prompt](https://tech.examadda.org/genai/user-prompt)
+- [Assistant Prompt](https://tech.examadda.org/genai/assistant-prompt)
+- [Prompt Templates](https://tech.examadda.org/genai/prompt-templates)
+- [Best Practices (Context, Constraints, Guardrails)](https://tech.examadda.org/genai/prompt-engineering-best-practices)
+
+- Core Techniques
+
+  - [Zero-Shot](https://tech.examadda.org/genai/zero-shot-prompting)
+  - [One-Shot](https://tech.examadda.org/genai/one-shot-prompting)
+  - [Few-Shot](https://tech.examadda.org/genai/few-shot-prompting)
+  - [Role Prompting](https://tech.examadda.org/genai/role-prompting)
+  - [Chain of Thought](https://tech.examadda.org/genai/chain-of-thought-prompting)
+  - [Self-Consistency](https://tech.examadda.org/genai/self-consistency-prompting)
+  - [ReAct](https://tech.examadda.org/genai/react-prompting)
+
+- Structured Outputs
+
+  - [JSON Output](https://tech.examadda.org/genai/json-output-prompting)
+  - [Function Calling](https://tech.examadda.org/genai/function-calling)
+  - [Tool Calling](https://tech.examadda.org/genai/tool-calling)
+
+---
+
+### Embeddings
+
+- [Introduction of Embeddings](https://tech.examadda.org/genai/introduction-to-embeddings)
+- [Text to Vectors](https://tech.examadda.org/genai/text-to-vectors)
+- [Semantic Similarity](https://tech.examadda.org/genai/semantic-similarity)
+- [Cosine Similarity](https://tech.examadda.org/genai/cosine-similarity)
+- [Euclidean Distance](https://tech.examadda.org/genai/euclidean-distance)
+
+- Embedding Models
+
+  - [OpenAI Embeddings](https://tech.examadda.org/genai/openai-embeddings)
+  - [Sentence Transformers](https://tech.examadda.org/genai/sentence-transformers)
+  - [BGE Models](https://tech.examadda.org/genai/bge-models)
+  - [E5 Models](https://tech.examadda.org/genai/e5-models)
+
+---
+
+### Vector Databases
+
+- [Introduction of Vector Database](https://tech.examadda.org/genai/introduction-to-vector-databases)
+- [Storing Embeddings](https://tech.examadda.org/genai/storing-embeddings)
+- [Metadata Storage](https://tech.examadda.org/genai/metadata-storage)
+- [Collections & Namespaces](https://tech.examadda.org/genai/collections-and-namespaces)
+- [Similarity Search](https://tech.examadda.org/genai/similarity-search)
+- [K-Nearest Neighbors (KNN)](https://tech.examadda.org/genai/k-nearest-neighbors)
+- [Top-K Retrieval](https://tech.examadda.org/genai/top-k-retrieval)
+- [ANN Search](https://tech.examadda.org/genai/approximate-nearest-neighbor-ann-search)
+
+- Vector Databases
+
+  - [Chroma](https://tech.examadda.org/genai/chroma-vector-database)
+  - [FAISS](https://tech.examadda.org/genai/faiss-facebook-ai-similarity-search)
+  - [Pinecone](https://tech.examadda.org/genai/pinecone-vector-database)
+  - [Weaviate](https://tech.examadda.org/genai/weaviate-vector-database)
+
+- Retrieval Optimization
+
+  - [Metadata Filtering](https://tech.examadda.org/genai/metadata-filtering)
+  - [Hybrid Search](https://tech.examadda.org/genai/hybrid-search)
+  - [Reranking](https://tech.examadda.org/genai/reranking)
+  - [Caching](https://tech.examadda.org/genai/caching-vector-databases)
+
+---
+
+### RAG
+
+- [Introduction to RAG](https://tech.examadda.org/genai/introduction-to-rag)
+- [RAG Architecture](https://tech.examadda.org/genai/rag-architecture)
+
+- RAG Pipeline
+
+  - [Document Loading](https://tech.examadda.org/genai/document-loading)
+  - [Chunking](https://tech.examadda.org/genai/document-chunking)
+  - [Embedding](https://tech.examadda.org/genai/embeddings-1)
+  - [Storing](https://tech.examadda.org/genai/storing-embeddings-1)
+
+- [Vector Search](https://tech.examadda.org/genai/vector-search-in-rag)
+- [Hybrid Search](https://tech.examadda.org/genai/hybrid-search-in-rag)
+- [Reranking](https://tech.examadda.org/genai/reranking-in-rag)
+- [Parent-Child Retrieval](https://tech.examadda.org/genai/parent-child-retrieval)
+- [Multi-Query Retrieval](https://tech.examadda.org/genai/multi-query-retrieval)
+- [Graph RAG](https://tech.examadda.org/genai/graph-rag)
+
+- Evaluation
+
+  - [Recall](https://tech.examadda.org/genai/recall-rag)
+  - [Precision](https://tech.examadda.org/genai/precision-rag)
+  - [Faithfulness](https://tech.examadda.org/genai/faithfulness-rag)
+
+---
+
+### AI Agents
+
+- [Introduction of AI Agent](https://tech.examadda.org/genai/introduction-to-ai-agents)
+- [Planning](https://tech.examadda.org/genai/planning-ai-agents)
+- [Memory](https://tech.examadda.org/genai/memory-ai-agents)
+- [Reasoning](https://tech.examadda.org/genai/reasoning-ai-agents)
+- [Tools](https://tech.examadda.org/genai/tools-ai-agents)
+
+- Agent Patterns
+
+  - [ReAct](https://tech.examadda.org/genai/react-agent-pattern)
+  - [Plan & Execute](https://tech.examadda.org/genai/plan-and-execute-agent-pattern)
+  - [Reflection](https://tech.examadda.org/genai/reflection-agent-pattern)
+
+- Tool Usage
+
+  - [Function Calling](https://tech.examadda.org/genai/function-calling-1)
+  - [APIs](https://tech.examadda.org/genai/apis-in-ai-agents)
+  - [Code Execution](https://tech.examadda.org/genai/code-execution-in-ai-agents)
+
+- Multi-Agent Systems
+
+  - [Agent Communication](https://tech.examadda.org/genai/agent-communication-in-ai-agents)
+  - [Agent Collaboration](https://tech.examadda.org/genai/agent-collaboration-in-ai-agents)
+  - [Task Delegation](https://tech.examadda.org/genai/task-delegation-in-ai-agents)
+  - [Agent Orchestration](https://tech.examadda.org/genai/agent-orchestration-in-ai-agents)
+
+---
+
+### Agent Frameworks
+
+- LangChain
+
+  - [Introduction to LangChain](https://tech.examadda.org/genai/introduction-to-langchain)
+  - [Tools](https://tech.examadda.org/genai/tools-in-langchain)
+  - [Memory](https://tech.examadda.org/genai/langchain-memory)
+  - [Retrievers](https://tech.examadda.org/genai/langchain-retrievers)
+  - [Agents](https://tech.examadda.org/genai/langchain-agents)
+
+- LlamaIndex
+
+  - [Introduction to LlamaIndex](https://tech.examadda.org/genai/introduction-to-llamaindex)
+  - [Indexing](https://tech.examadda.org/genai/llamaindex-indexing)
+  - [Query Engines](https://tech.examadda.org/genai/llamaindex-query-engines)
+  - [RAG Pipelines](https://tech.examadda.org/genai/llamaindex-rag-pipelines)
+
+- LangGraph
+
+  - [Introduction to LangGraph](https://tech.examadda.org/genai/introduction-to-langgraph)
+  - [State Management](https://tech.examadda.org/genai/langgraph-state-management)
+  - [Workflow Design](https://tech.examadda.org/genai/langgraph-workflow-design)
+  - [Human-in-the-Loop](https://tech.examadda.org/genai/langgraph-human-in-the-loop)
+
+---
+
+### Fine-Tuning
+
+- [Introduction to Tuning](https://tech.examadda.org/genai/introduction-to-tuning)
+
+- Tuning Types
+
+  - [Full Fine-Tuning](https://tech.examadda.org/genai/full-fine-tuning)
+  - [Instruction Tuning](https://tech.examadda.org/genai/instruction-tuning)
+
+- PEFT
+
+  - [PEFT (Parameter-Efficient Fine-Tuning)](https://tech.examadda.org/genai/lora-low-rank-adaptation)
+
+- [Data Collection](https://tech.examadda.org/genai/data-collection-for-fine-tuning)
+- [Data Formatting](https://tech.examadda.org/genai/data-formatting-for-fine-tuning)
+- [Benchmarks](https://tech.examadda.org/genai/benchmarks-for-fine-tuning)
+- [Model Comparison](https://tech.examadda.org/genai/model-comparison)
+
+---
+
+### Multimodal AI
+
+- [Introduction to Multimodal AI](https://tech.examadda.org/genai/introduction-to-multimodal-ai)
+- [Multimodal LLM](https://tech.examadda.org/genai/multimodal-large-language-models)
+
+- Modalities
+
+  - [Text](https://tech.examadda.org/genai/text-modality)
+  - [Image](https://tech.examadda.org/genai/image-modality)
+  - [Audio](https://tech.examadda.org/genai/audio-modality)
+
+---
+
+## Portfolio Projects
 
 | Level | Project | Core skills | Deliverables |
 |:---:|---|---|---|
@@ -227,7 +382,9 @@ flowchart LR
 | 🔴 Expert | Multimodal document analyst | OCR, vision-language model, RAG | Document processing platform |
 | 🔴 Expert | Production GenAI platform | Gateway, evaluation, safety, LLMOps | Deployed, monitored capstone |
 
-## 💼 Interview Preparation
+## Interview Preparation
+
+For a focused interview path, use the companion [GenAI interview preparation guide](INTERVIEWS.md).
 
 | Level | Resource | Recommended stage |
 |:---:|---|---|
@@ -238,7 +395,7 @@ flowchart LR
 
 Focus on explaining trade-offs: model selection, prompting vs RAG vs fine-tuning, chunking strategy, retrieval quality, hallucination control, evaluation, latency, security, and cost.
 
-## 📅 Suggested Study Plan
+## Suggested Study Plan
 
 | Track | Duration | Weekly commitment | Best for |
 |---|:---:|:---:|---|
@@ -270,7 +427,7 @@ Focus on explaining trade-offs: model selection, prompting vs RAG vs fine-tuning
 - [ ] Publish clear READMEs with architecture, setup, trade-offs, results, and demos.
 - [ ] Revise beginner, intermediate, advanced, and scenario-based interview questions.
 
-## 🔖 Resource Link Convention
+## Resource Link Convention
 
 Replace these placeholders as content becomes available:
 
@@ -283,7 +440,7 @@ Replace these placeholders as content becomes available:
 
 ---
 
-## 🌟 Learn with ExamAdda
+## Learn with ExamAdda
 
 - [Explore Generative AI Tutorials](https://tech.examadda.org/genai)
 - [Open the Interactive GenAI Roadmap](https://tech.examadda.org/genai/roadmap)

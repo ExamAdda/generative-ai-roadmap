@@ -1,93 +1,58 @@
-# DSA Roadmap: Beginner to Advanced
+# Generative AI Interview Preparation
 
-Use this roadmap as an ordered syllabus. Progress only after you can explain the current topic and solve representative problems without copying a solution.
+Use this guide with the main [Generative AI Roadmap](README.md). Start with fundamentals, then practise design trade-offs, debugging, evaluation, and production decisions.
 
-## Phase 1 — Foundations
+## Navigation
 
-- Programming syntax, functions and input/output
-- Time and space complexity
-- Big O, Omega and Theta notation
-- Recursion basics
-- Basic mathematics
+- [Main Roadmap](README.md)
+- [Portfolio Projects](README.md#portfolio-projects)
+- [Suggested Study Plan](README.md#suggested-study-plan)
+- [Contributing Guide](CONTRIBUTING.md)
+- [License](LICENSE)
 
-**Milestone:** Analyze simple loops and solve 15 basic problems.
+## Interview Tracks
 
-## Phase 2 — Core Problem Solving
+| Level | What to revise | Practice links |
+|:---:|---|---|
+| Beginner | AI, ML, deep learning, tokens, embeddings, prompts, transformers and LLM basics | [Beginner questions](https://tech.examadda.org/genai/beginner-interview-questions) |
+| Intermediate | RAG architecture, vector search, chunking, reranking, tool calling, agents and frameworks | [Intermediate questions](https://tech.examadda.org/genai/intermediate-interview-questions) |
+| Advanced | fine-tuning, evaluation, safety, multimodal systems, latency, cost and production LLMOps | [Advanced questions](https://tech.examadda.org/genai/advanced-interview-questions) |
+| Scenario-based | end-to-end system design, debugging poor responses, choosing between prompting, RAG and fine-tuning | [Scenario questions](https://tech.examadda.org/genai/scenario-based-interview-questions) |
 
-- Arrays and matrices
-- Strings
-- Searching and binary search
-- Sorting
-- Hashing
-- Two pointers, sliding window and prefix sums
+## Core Topics
 
-**Milestone:** Solve 60 problems, including at least 20 medium problems.
+- Explain the difference between generative AI, traditional ML, deep learning and LLMs.
+- Describe tokens, embeddings, context windows, temperature, top-p and output limits.
+- Compare encoder, decoder and encoder-decoder transformer architectures.
+- Write prompts for classification, summarization, extraction and structured JSON output.
+- Design a RAG pipeline with ingestion, chunking, embeddings, retrieval, reranking and citations.
+- Choose between prompt engineering, RAG, fine-tuning and agentic workflows.
+- Explain hallucinations, grounding, guardrails, evaluation datasets and human review.
+- Discuss latency, cost, rate limits, privacy, observability and production monitoring.
 
-## Phase 3 — Linear Data Structures
+## Scenario Practice
 
-- Singly, doubly and circular linked lists
-- Stacks and monotonic stacks
-- Queues, circular queues and deques
+1. Design a PDF chat assistant that answers with citations and refuses unsupported claims.
+2. Improve a customer-support chatbot that gives outdated or hallucinated refund answers.
+3. Build a SQL assistant that can answer analytics questions without modifying data.
+4. Decide whether a domain chatbot needs better prompting, better retrieval or fine-tuning.
+5. Create an evaluation plan for a production RAG system before release.
 
-**Milestone:** Implement each structure and solve 30 problems.
-
-## Phase 4 — Recursion and Backtracking
-
-- Recursion trees
-- Subsequences and subsets
-- Permutations and combinations
-- N-Queens, Sudoku and maze problems
-
-**Milestone:** Recognize choose/explore/unchoose problems and solve 20 problems.
-
-## Phase 5 — Trees and Heaps
-
-- Binary-tree traversals
-- Views, height, diameter and paths
-- Binary search trees
-- Heaps and priority queues
-- Tries
-
-**Milestone:** Solve 50 tree, BST, heap and trie problems.
-
-## Phase 6 — Graphs
-
-- Graph representation
-- BFS and DFS
-- Cycle detection
-- Topological sorting
-- Shortest-path algorithms
-- Minimum spanning trees
-- Disjoint set union
-
-**Milestone:** Select the correct graph algorithm from problem constraints.
-
-## Phase 7 — Greedy and Dynamic Programming
-
-- Greedy-choice reasoning
-- One- and two-dimensional DP
-- Subsequences, grids and strings
-- Knapsack, LIS and partition patterns
-- DP on trees and bitmasks
-
-**Milestone:** Derive states, transitions and base cases independently.
-
-## Phase 8 — Interview Readiness
-
-- Mixed timed problem sets
-- Pattern-based revision
-- Company-wise questions
-- Mock coding interviews
-- Communication and complexity analysis
-
-**Milestone:** Complete two 45-minute interview problems while explaining trade-offs and testing edge cases.
-
-## Suggested Weekly Routine
+## Weekly Routine
 
 | Activity | Weekly target |
 |---|---:|
-| Learn concepts | 3–5 hours |
-| Solve new problems | 10–15 |
-| Revisit old problems | 5–8 |
-| Timed interview session | 1–2 |
-| Write or improve notes | 1 session |
+| Revise roadmap topics | 3-5 hours |
+| Practise interview questions | 20-30 |
+| Build or improve a project | 1 milestone |
+| Run mock interviews | 1-2 sessions |
+| Write trade-off notes | 1 page |
+
+## Readiness Checklist
+
+- [ ] I can explain each roadmap phase without reading notes.
+- [ ] I can design a RAG system with clear data flow and failure modes.
+- [ ] I can compare prompting, RAG, fine-tuning and agents for real use cases.
+- [ ] I can define metrics for retrieval quality, answer quality, safety and cost.
+- [ ] I can discuss deployment, monitoring, privacy and security risks.
+- [ ] I have at least one polished GenAI project ready to demo.
